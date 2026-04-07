@@ -1,6 +1,14 @@
 # Hi Hysteria
+## - From emptysuns
 ##### (2026/03/30) ver1.04-a
+---
+### 拉取安装
 
+```
+su - root #switch to root user.
+bash <(curl -fsSL https://raw.githubusercontent.com/ChishioMoe/hy2/refs/heads/main/server/install.sh)
+```
+---
 ```
 兼容 hysteria2 新版 advanced 配置与 URI 生成逻辑，重点更新拥塞控制、端口跳跃和客户端导出。
 
@@ -99,12 +107,7 @@
 
 #### 7. [启动一个伪装网站](md/masquerade.md)
 
-### 拉取安装
 
-```
-su - root #switch to root user.
-bash <(curl -fsSL https://git.io/hysteria.sh)
-```
 
 ### 配置过程
 
